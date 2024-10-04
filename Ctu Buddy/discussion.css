@@ -1,0 +1,163 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 8%;
+    position: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 5% 5%;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 2rem;
+    border-bottom: 1px solid #000000;
+    border-radius: 0 0 15px 15px;
+    margin: 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    z-index: 1000;
+    background: #333;
+}
+
+.top-nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav ul li {
+    margin-right: 25px;
+
+}
+
+.top-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    border-radius: 20p
+}
+/*discussion*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(discussion.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.chat-container {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(103, 62, 62, 0.1);
+    width: 300px;
+    text-align: left;
+    align-items: left;
+    margin-left: 400px;
+  
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ff0000;
+   
+}
+
+.input-box {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #141414;
+
+}
+
+/* From Uiverse.io by adamgiebl */ 
+button {
+    font-family: inherit;
+    font-size: 20px;
+    background: rgb(6, 255, 6);
+    color: rgb(0, 0, 0);
+    padding: 0.7em 1em;
+    padding-left: 0.9em;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-left: 90px;
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.3em;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button svg {
+    display: block;
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover .svg-wrapper {
+    animation: fly-1 0.6s ease-in-out infinite alternate;
+  }
+  
+  button:hover svg {
+    transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  }
+  
+  button:hover span {
+    transform: translateX(5em);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes fly-1 {
+    from {
+      transform: translateY(0.1em);
+    }
+  
+    to {
+      transform: translateY(-0.1em);
+    }
+  }
+  
+
+.header-section h1{
+    color: #000000;
+    margin-left: 27%;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+.header-section h2{
+    color:#000000;
+    margin-left: 30%; 
+}
+
+footer{
+  color: #000000;
+  margin-left: 40%;
+}
